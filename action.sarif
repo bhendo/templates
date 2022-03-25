@@ -28,10 +28,10 @@
             },
             "results": [
                 {
-                    "ruleId": "resultsRuleId0",
+                    "ruleId": "rulesId0",
                     "message": {
                         "text": "results message text",
-                        "markdown": "results message markdown"
+                        "markdown": "results message markdown\n```suggestion\nDoSomething\n```"
                     },
                     "locations": [
                         {
@@ -53,8 +53,26 @@
                             }
                         }
                     ],
+                    "relatedLocations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "template.yaml",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 3,
+                                    "endLine": 4
+                                }
+                            },
+                            "message": {
+                                "text": "related results locations message text",
+                                "markdown": "related results locations message markdown"
+                            }
+                        }
+                    ],
                     "partialFingerprints": {
-                        "SomeHash": "asdfasdfasdf"
+                        "SomeHash": "abcd"
                     }
                 }
             ]
