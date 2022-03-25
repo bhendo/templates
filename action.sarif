@@ -53,8 +53,26 @@
                             }
                         }
                     ],
+                    "relatedLocations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "template.yaml",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 3,
+                                    "endLine": 4
+                                }
+                            },
+                            "message": {
+                                "text": "related results locations message text",
+                                "markdown": "related results locations message markdown"
+                            }
+                        }
+                    ],
                     "partialFingerprints": {
-                        "SomeHash": "abc"
+                        "SomeHash": "abcd"
                     }
                 }
             ]
