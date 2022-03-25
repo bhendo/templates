@@ -1,0 +1,63 @@
+{
+    "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+    "version": "2.1.0",
+    "runs": [
+        {
+            "tool": {
+                "driver": {
+                    "name": "Sarif Test",
+                    "rules": [
+                        {
+                            "id": "rulesId0",
+                            "name": "rule name",
+                            "shortDescription": {
+                                "text": "rule shortDescription text",
+                                "markdown": "rule shortDescription markdown"
+                            },
+                            "fullDescription": {
+                                "text": "rule fullDescription text",
+                                "markdown": "rule fullDescription markdown"
+                            },
+                            "help": {
+                                "text": "rule help text",
+                                "markdown": "rule help markdown"
+                            }
+                        }
+                    ]
+                }
+            },
+            "results": [
+                {
+                    "ruleId": "resultsRuleId0",
+                    "message": {
+                        "text": "results message text",
+                        "markdown": "results message markdown"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "template.yaml",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 5,
+                                    "endLine": 5,
+                                    "startColumn": 5,
+                                    "endColumn": 16
+                                }
+                            },
+                            "message": {
+                                "text": "results locations message text",
+                                "markdown": "results locations message markdown"
+                            }
+                        }
+                    ],
+                    "partialFingerprints": {
+                        "SomeHash": "asdfasdfasdf"
+                    }
+                }
+            ]
+        }
+    ]
+}
