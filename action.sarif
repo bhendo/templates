@@ -28,10 +28,10 @@
             },
             "results": [
                 {
-                    "ruleId": "resultsRuleId0",
+                    "ruleId": "rulesId0",
                     "message": {
                         "text": "results message text",
-                        "markdown": "results message markdown"
+                        "markdown": "results message markdown\n```suggestion\nDoSomething\n```"
                     },
                     "locations": [
                         {
@@ -54,7 +54,7 @@
                         }
                     ],
                     "partialFingerprints": {
-                        "SomeHash": "a"
+                        "SomeHash": "abc"
                     }
                 }
             ]
