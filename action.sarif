@@ -54,7 +54,7 @@
                         }
                     ],
                     "partialFingerprints": {
-                        "SomeHash": "asdfasdfasdf"
+                        "SomeHash": "a"
                     }
                 }
             ]
